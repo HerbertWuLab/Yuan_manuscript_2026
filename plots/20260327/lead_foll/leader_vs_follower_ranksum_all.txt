@@ -1,5 +1,0 @@
-
-Wilcoxon rank-sum test (Leader vs Follower, non-paired):
-  rank sum = 472.0
-  p = 0.1220
-  Result: NOT significant (fail to reject H0)
