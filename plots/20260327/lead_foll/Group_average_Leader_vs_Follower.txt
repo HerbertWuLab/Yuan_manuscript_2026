@@ -1,0 +1,100 @@
+========================================
+Code executed on: 2026-03-27 10:00:23
+========================================
+
+Pair RL011RL012: m1 led 1 days, m2 led 2 days in last 3 days
+Pair RL015RL016: m1 led 2 days, m2 led 1 days in last 3 days
+Pair YC129YC130: m1 led 2 days, m2 led 1 days in last 3 days
+
+=== Leadership Summary ===
+Total pairs: 23
+Inconsistent: 3
+Tied (skipped): 0
+Processed: 23
+Threshold: 10 pairs
+
+=== Calculating Criterion Days (using FILTERED data) ===
+Pair AS001AS002: Criterion at index 3 using 3-day criterion (cp_rate = 0.95)
+Pair AS003AS004: Criterion at index 3 using 3-day criterion (cp_rate = 0.90)
+Pair MK029MK030: Criterion at index 14 using 2-day criterion (cp_rate = 0.84)
+Pair MK031MK032: Criterion at index 5 using 3-day criterion (cp_rate = 0.95)
+Pair RL009RL010: Criterion at index 10 using 3-day criterion (cp_rate = 0.91)
+Pair RL011RL012: Criterion at index 18 using 3-day criterion (cp_rate = 0.85)
+Pair RL015RL016: Criterion at index 7 using 3-day criterion (cp_rate = 0.83)
+Pair RL017RL014: Criterion at index 7 using 3-day criterion (cp_rate = 0.87)
+Pair RL019RL027: Criterion at index 14 using 2-day criterion (cp_rate = 0.85)
+Pair RL021RL022: Criterion at index 7 using 3-day criterion (cp_rate = 0.98)
+Pair RL023RL024: Criterion at index 9 using 3-day criterion (cp_rate = 0.87)
+Pair RL025RL026: Criterion at index 12 using 3-day criterion (cp_rate = 0.87)
+Pair RL029RL030: Criterion at index 4 using 3-day criterion (cp_rate = 0.92)
+Pair RL031RL032: Criterion at index 7 using 3-day criterion (cp_rate = 0.92)
+Pair YC103YC104: Criterion at index 9 using 3-day criterion (cp_rate = 0.94)
+Pair YC105YC106: Criterion at index 11 using 3-day criterion (cp_rate = 0.85)
+Pair YC127YC128: Criterion at index 25 using 3-day criterion (cp_rate = 0.90)
+Pair YC129YC130: Criterion at index 29 using 3-day criterion (cp_rate = 0.85)
+Pair YC191YC192: Criterion at index 7 using 3-day criterion (cp_rate = 0.85)
+Pair YC193YC194: Criterion at index 15 using 3-day criterion (cp_rate = 0.85)
+Pair YC199YC200: Criterion at index 6 using 3-day criterion (cp_rate = 0.92)
+Pair YC201YC202: Criterion at index 3 using 3-day criterion (cp_rate = 0.92)
+Pair YC207YC208: Criterion at index 7 using 3-day criterion (cp_rate = 0.92)
+
+Pairs without criterion: 0
+Pairs using 2-day criterion: 2
+  Pairs: MK029MK030 RL019RL027 
+Pairs with criterion: 23
+
+=== Leader vs Follower win_count on CRITERION DAY ===
+Pairs with criterion (map): 23
+Pairs plotted (valid wins): 23
+Leader mean±SEM:   1.261 ± 0.237
+Follower mean±SEM: 1.783 ± 0.226
+        <strong>pair</strong>        <strong>sex</strong>    <strong>criterion_day</strong>    <strong>leader_win</strong>    <strong>follower_win</strong>
+    <strong>____________</strong>    <strong>___</strong>    <strong>_____________</strong>    <strong>__________</strong>    <strong>____________</strong>
+
+    "RL019RL027"    "F"     "20241211"          0              1      
+    "MK031MK032"    "M"     "20241207"          0              2      
+    "YC127YC128"    "F"     "20250109"          0              2      
+    "YC199YC200"    "M"     "20251105"          0              2      
+    "AS001AS002"    "F"     "20250921"          0              3      
+    "RL025RL026"    "M"     "20241126"          0              3      
+    "RL029RL030"    "F"     "20250129"          0              3      
+    "YC207YC208"    "M"     "20251125"          0              3      
+    "YC193YC194"    "M"     "20251027"          1              0      
+    "RL009RL010"    "F"     "20241031"          1              2      
+    "RL015RL016"    "M"     "20241011"          1              2      
+    "RL031RL032"    "F"     "20250129"          1              2      
+    "YC105YC106"    "F"     "20241113"          1              2      
+    "RL011RL012"    "F"     "20241126"          2              0      
+    "YC103YC104"    "F"     "20241110"          2              0      
+    "RL023RL024"    "M"     "20241121"          2              1      
+    "RL021RL022"    "F"     "20241127"          2              3      
+    "YC129YC130"    "F"     "20250128"          2              3      
+    "YC191YC192"    "M"     "20251019"          2              3      
+    "RL017RL014"    "M"     "20241011"          3              0      
+    "MK029MK030"    "M"     "20241216"          3              1      
+    "YC201YC202"    "M"     "20251103"          3              1      
+    "AS003AS004"    "F"     "20251003"          3              2      
+
+
+ans =
+
+  11×5 <a href="matlab:helpPopup('table')" style="font-weight:bold">table</a>
+
+        <strong>pair</strong>        <strong>sex</strong>    <strong>criterion_day</strong>    <strong>leader_win</strong>    <strong>follower_win</strong>
+    <strong>____________</strong>    <strong>___</strong>    <strong>_____________</strong>    <strong>__________</strong>    <strong>____________</strong>
+
+    "MK031MK032"    "M"     "20241207"          0              2      
+    "YC199YC200"    "M"     "20251105"          0              2      
+    "RL025RL026"    "M"     "20241126"          0              3      
+    "YC207YC208"    "M"     "20251125"          0              3      
+    "YC193YC194"    "M"     "20251027"          1              0      
+    "RL015RL016"    "M"     "20241011"          1              2      
+    "RL023RL024"    "M"     "20241121"          2              1      
+    "YC191YC192"    "M"     "20251019"          2              3      
+    "RL017RL014"    "M"     "20241011"          3              0      
+    "MK029MK030"    "M"     "20241216"          3              1      
+    "YC201YC202"    "M"     "20251103"          3              1      
+
+Saved: ..\plots\20260327\lead_foll\leader_vs_follower_matrix_F.pdf
+Saved: ..\plots\20260327\lead_foll\leader_vs_follower_matrix_all.pdf
+Saved: ..\plots\20260327\lead_foll\leader_vs_follower_matrix_M.pdf

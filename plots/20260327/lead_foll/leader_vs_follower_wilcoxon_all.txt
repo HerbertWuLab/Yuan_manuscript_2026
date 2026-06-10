@@ -1,0 +1,5 @@
+
+Wilcoxon signed-rank test (Leader vs Follower, paired):
+  signed rank = 99.0
+  p = 0.2274
+  Result: NOT significant (fail to reject H0)

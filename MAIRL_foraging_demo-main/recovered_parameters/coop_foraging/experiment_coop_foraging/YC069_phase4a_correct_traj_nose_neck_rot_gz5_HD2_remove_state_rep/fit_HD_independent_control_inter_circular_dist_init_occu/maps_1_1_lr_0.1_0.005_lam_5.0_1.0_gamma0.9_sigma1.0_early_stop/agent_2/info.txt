@@ -1,0 +1,11 @@
+Neval: 0
+inter_tag: 6
+init_tag: 1
+HD: True
+SingleAgent: 2
+early_stop: True
+sigma: 1.0
+gamma: 0.9
+lam1: 5.0
+lam2: 1.0
+seed: 1
