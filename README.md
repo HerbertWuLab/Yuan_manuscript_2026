@@ -1,4 +1,4 @@
-# Yuan Manuscript Demo Code
+# Yuan Manuscript Code
 
 ## Folders
 
